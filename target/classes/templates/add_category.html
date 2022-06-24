@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Category</title>
+    <style>
+    body{
+    background-color:lightgrey;
+    }
+    </style>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="form">
         <p style="color:red"><b th:text="${anyerror}"></b></p>
-        <form method="post",action="/addcategory",th:object="${categoryadd}">
           <h2>Add Category</h2>
           <div class="input-box">
             <i class="fa fa-user" aria-hidden="true"></i>
@@ -20,9 +24,10 @@
             <i class="fa fa-user" aria-hidden="true"></i>
             <input type="text" name="category_name" placeholder="Category Name" required>
           </div>
-            <input  style ="color:blue; background-color: brown;"type="submit" name="add-category" value="ADD">
+          <br/>
+            <input  style ="color:blue;"type="submit" name="add-category" value="ADD">
             <br></br>
-            <input  style ="color:blue; background-color: brown;"type="button" onclick="location.href='/showcategories';" value= "Added Categories">
+            <input  style ="color:blue;"type="button" onclick="location.href='/showcategories';" value= "Added Categories">
 
           </div>
         </div>

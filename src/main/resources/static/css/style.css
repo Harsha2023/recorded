@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    padding: 0;
+    padding:0;
     font-family: sans-serif;
-    background: url(https://picsum.photos/3000/2000/?image=1015);
+    background: url(https://wallpaperaccess.com/full/3205959.jpg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 25%;
     height: 100%;
-    background-color: #03a9f4;
+    background-color: #ffccff;
     opacity: 0.8;
   }
   
